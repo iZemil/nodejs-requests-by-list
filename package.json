@@ -1,0 +1,27 @@
+{
+    "name": "zemil",
+    "version": "1.0.2",
+    "description": "nodejs scrape/check websites by list",
+    "main": "lib/index.js",
+    "scripts": {
+        "build": "./node_modules/.bin/babel src --out-dir lib"
+    },
+    "keywords": [
+        "scraper",
+        "web",
+        "request",
+        "fetch",
+        "parser",
+        "html",
+        "json"
+    ],
+    "author": "zemil",
+    "license": "MIT",
+    "devDependencies": {
+        "@babel/cli": "^7.2.3",
+        "@babel/core": "^7.4.0"
+    },
+    "dependencies": {
+        "node-fetch": "^2.3.0"
+    }
+}
