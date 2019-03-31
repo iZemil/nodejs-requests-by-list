@@ -6,6 +6,9 @@
     "scripts": {
         "build": "./node_modules/.bin/babel src --out-dir lib"
     },
+    "repository": {
+        "url": "https://github.com/iZemil/nodejs-requests-by-list"
+    },
     "keywords": [
         "scraper",
         "web",
